@@ -55,7 +55,7 @@ install(
 install(
     EXPORT ${PROJECT_NAME}-targets
     FILE ${PROJECT_NAME}-targets.cmake
-    NAMESPACE ${PROJECT_NAME}::
+    NAMESPACE OpenC37118::
     DESTINATION ${CMAKE_INSTALL_DATADIR}/${PROJECT_NAME}
 )
 
